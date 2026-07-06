@@ -485,8 +485,6 @@
       </button>
     </div>
   </header>
-  </body>
-</html>
 
 
 <div class="content">
@@ -592,7 +590,7 @@
 
 <ul>
   <li>Contribute to the <a href="https://github.com/meshery">project on GitHub</a></li>
-  <li>Join the community discussions: <a href="https://slack.meshery.io">Slack</a>, <a href="https://meshery.io/community#discussion-forums">Forum</a></li>
+  <li>Join the community discussions: <a href="https://slack.meshery.io">Slack</a>, <a href="https://discuss.meshery.io">Forum</a></li>
   <li>Share your insights and experiences on the <a href="https://meshery.io/blog">Meshery blog</a></li>
 </ul>
 
@@ -1150,7 +1148,8 @@
 <script>
   $(document).ready(function () {
     $('.slider').slick({
-
+      centerMode: true,
+      centerPadding: '0px',
       dots: false,
       arrows: false,
       infinite: true,
@@ -1165,25 +1164,25 @@
         {
           breakpoint: 1300,
           settings: {
-            slidesToShow: 2.5,
+            slidesToShow: 3,
           }
         },
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
           }
         },
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
           }
         },
         {
           breakpoint: 800,
           settings: {
-            slidesToShow: 1.5,
+            slidesToShow: 2,
             slidesToScroll: 1,
           }
         },
@@ -1199,7 +1198,8 @@
           breakpoint: 480,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            centerMode: false
           }
         },
         {
@@ -1207,7 +1207,8 @@
           settings: {
             slidesToShow: 1,
             adaptiveWidth: true,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            centerMode: false
           }
         },
         {
@@ -1216,6 +1217,7 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             adaptiveWidth: true,
+            centerMode: false
           }
         },
         {
@@ -1224,6 +1226,7 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             adaptiveWidth: true,
+            centerMode: false
           }
         }
       ]

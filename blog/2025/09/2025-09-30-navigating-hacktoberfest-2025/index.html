@@ -485,8 +485,6 @@
       </button>
     </div>
   </header>
-  </body>
-</html>
 
 
 <div class="content">
@@ -576,7 +574,7 @@
 
 <h3 id="5-engaging-beyond-code-fostering-holistic-development">5. Engaging Beyond Code: Fostering Holistic Development</h3>
 
-<p>Don’t confine yourself to a GitHub profile. Engage in meaningful discussions, participate in webinars, and <a href="https://meshery.io/community#discussion-forums">open discussions</a>. Be a mentor and seek mentorship. Open Source offers a wealth of opportunities for comprehensive growth. While coding skills undoubtedly benefit, the real lessons often lie in understanding people and their diverse perspectives.</p>
+<p>Don’t confine yourself to a GitHub profile. Engage in meaningful discussions, participate in webinars, and <a href="https://discuss.meshery.io">open discussions</a>. Be a mentor and seek mentorship. Open Source offers a wealth of opportunities for comprehensive growth. While coding skills undoubtedly benefit, the real lessons often lie in understanding people and their diverse perspectives.</p>
 
 <h3 id="6-compassion-over-code-recognizing-maintainer-burnout">6. Compassion Over Code: Recognizing Maintainer Burnout</h3>
 
@@ -667,8 +665,8 @@
 
     <div class="blog-navigation">
       
-      <a class="prev" href="/blog/2025/04/2025-04-01-improving-mesherys-ui-e2e-tests/
-">&laquo; Improving Meshery UI's E2E Tests</a>
+      <a class="prev" href="/blog/2025/05/2025-05-28-digitalocean-adopts-meshery/
+">&laquo; DigitalOcean Adopts Meshery as an Ecosystem Partner</a>
        
       <a class="next" href="/blog/2025/10/2025-10-27-certified-meshery-contributor/
 ">Announcing the Certified Meshery Contributor (CMC) &raquo;</a>
@@ -1174,7 +1172,8 @@
 <script>
   $(document).ready(function () {
     $('.slider').slick({
-
+      centerMode: true,
+      centerPadding: '0px',
       dots: false,
       arrows: false,
       infinite: true,
@@ -1189,25 +1188,25 @@
         {
           breakpoint: 1300,
           settings: {
-            slidesToShow: 2.5,
+            slidesToShow: 3,
           }
         },
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
           }
         },
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
           }
         },
         {
           breakpoint: 800,
           settings: {
-            slidesToShow: 1.5,
+            slidesToShow: 2,
             slidesToScroll: 1,
           }
         },
@@ -1223,7 +1222,8 @@
           breakpoint: 480,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            centerMode: false
           }
         },
         {
@@ -1231,7 +1231,8 @@
           settings: {
             slidesToShow: 1,
             adaptiveWidth: true,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            centerMode: false
           }
         },
         {
@@ -1240,6 +1241,7 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             adaptiveWidth: true,
+            centerMode: false
           }
         },
         {
@@ -1248,6 +1250,7 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             adaptiveWidth: true,
+            centerMode: false
           }
         }
       ]
